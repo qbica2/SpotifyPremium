@@ -1,0 +1,250 @@
+.spotilogo {
+    height: 41.9px;
+    width: 132px;
+    display: inline-block;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+/* navbardaki indir-kaydol arasındaki işaret */
+.item {
+    
+    margin: auto 17px;
+    display: block;
+    height: 16px;
+    width: 1px;
+    color: #fff;
+    font-family: Circular,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.navbaritem {
+    font-family: Circular,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    color-interpolation-filters: 15;
+    
+}
+/* container margin */
+.marginsolsag {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* navbarındivi */
+.navdiv {
+    position: relative;
+    top: 0;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 54px;
+}
+@media (min-width: 992px) {
+.bar {
+    display: inline-block;
+    max-height: 24px;
+}
+}
+@media (min-width: 992px) {
+    .bar1 {
+        display: inline-flex;
+
+    }
+    }
+
+.xxx {
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0;
+}
+/* premium */
+.pre {
+    width: 101.2px;
+    height: 80px;
+    padding: 28px 17px;
+}
+.destek {
+    width: 86px;
+    height: 80px;
+    padding: 28px 17px
+}
+.indir {
+    width: 68.4px;
+    height: 80px;
+    padding: 28px 17px
+}
+.pipe {
+    width: 31px;
+    height: 80px;
+    padding: 28px 15px ;
+}
+.kaydol {
+    width: 86px   ;
+    height: 80px;
+    padding: 28px 17px
+}
+.oturum {
+    width: 97.8px;
+    height: 80px;
+    padding: 28px 0px 28px 17px ;
+}
+.y {
+    position: relative;
+    top: 0;
+}
+.mobile {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+/* button */
+.but {
+width: 31px;
+height: 54px;
+}
+@media(min-widht: 1200px){
+    .yyy {
+        max-width: 1170px;
+    }
+}
+.main1 {
+    --text-base: #ffffff;
+    color: var(--text-base,"#FFF");
+    text-align: left;
+}
+.btnstyle {
+    border-radius: 500px;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;
+    text-transform: uppercase;
+    padding: 17px 48px;
+    letter-spacing: 2px;
+}
+/* h1 için */
+/* @media (min-width: 1200px) {
+ .h1 {
+    font-size: 2.5rem;
+}
+} */
+/* h2 için */
+@media (min-width: 480px) {
+.h2 {
+    width: auto;
+    margin: 30px 0px;
+}}
+/* card img */
+.cardimg {
+    width: 142px;
+    height: 142px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    
+}
+
+
+/* card yazı margin */
+.cardmargin {
+    margin: 16px 0px;
+    
+}
+/*  */
+.cardtitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding: 0px;
+    line-height: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardp {
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 0px;
+    letter-spacing: 0.25px;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-widht:1200px){
+    .imgspecial {
+        display: inline-block;
+    background-position: center top;
+    margin-right: 20px;
+    }
+}
+/* price heading */
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+    padding: 0px;
+    
+}
+/* 1ayücretsiz button */
+.freebutton {
+    font-size: 14px;
+    font-weight: 900;
+    
+    
+}
+/* price listteki tik işareti */
+.svg {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px 0px 0px;
+}
+/* price altındaki paragraflar */
+.ppp {
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.insta {
+    display: block;
+    width: 24px;
+    height: 24px;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+}
+/* insta twitter face logolar ulsi */
+.itf {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 20px 0 0;
+    padding: 0;
+}
+/* insta twitter face logolar li */
+.itfli {
+    
+    display: inline-block;
+    text-align: -webkit-match-parent;
+}
+.footeryazı {
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+@media (min-width:992px)
+{
+    .ins {
+        margin: 0 15px 0 auto;
+    }
+}
